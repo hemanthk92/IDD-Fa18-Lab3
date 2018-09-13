@@ -31,9 +31,10 @@ We can use the analogread function from pin A0. This will give us voltage values
 [link to the video](https://youtu.be/bNC21NYjnT8) <br>
 [link to the code] (/forceresistor_led.ino) <br>
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
-The photocell resistor 
-**e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
+The photocell resistor <br>
+**e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**<br>
 The photocell resistor increases in voltage when it has more light and when it is covered up the voltage goes down. 
+The soft cell resistor decreases in voltage the more its bent. 
 ### 2. Accelerometer
  
 **a. Include your accelerometer read-out code in your write-up.**
