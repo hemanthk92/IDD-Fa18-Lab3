@@ -57,7 +57,7 @@ As you move your hand or an object closer to the sensor the proximity value incr
 
 **a. Does it matter what actions are assigned to which state? Why?**
 The actions assigned to each of the 3 states (clearing, reading, writing) are turning on the built in LED to various brightnesses. The action of turning on the LED has nothing to do with what is going on with the memory, it is just a way 
-to know whats going on, on the board.
+to know whats going on, on the board. <br>
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
 
 **c. How many byte-sized data samples can you store on the Atmega328?**
