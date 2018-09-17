@@ -41,8 +41,9 @@ The soft cell resistor decreases in voltage the more its bent.
 <br>
 If you are looking at the acclerometer straight on with the labeled pins. Rotating the accelerometer horizontally changes the X position values. Flipping the accelerometer changes the Y values. And moving the acclerometer up and down changes the Z position values. Likewise for increasing the rate of motion causes subsquent changes to the Axes's accleration values. <br>
 [link to code] (/accle-led.ino) <br>
-### 3. IR Proximity Sensor
-As you move your hand or an object closer to the sensor the proximity value increases and the ambient value decreases. When the field of view is clear, the values are fairly static. 
+### 3. IR Proximity Sensor 
+<br>
+As you move your hand or an object closer to the sensor the proximity value increases and the ambient value decreases. When the field of view is clear, the values are fairly static. <br>
 **a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**
 
 **b. Upload your merged code to your lab report repository and link to it here.**
