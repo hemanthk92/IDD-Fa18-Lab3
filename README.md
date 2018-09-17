@@ -72,7 +72,7 @@ We would have the same process for the I2C devices. We would figure out the rang
 You can use the EEPROMPut function that allows you to write any data type or object to memory.
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**<br>
-[link to code] (/accel_ir_byte.ino) 
+[code] (/accel_ir_byte.ino) 
 <br>
 In question 3b we took sensor data and printed it in the serial monitor. I modified that code file to output data that is byte sized using the map function. Since the accleromter data is 16 bits we need to scale it down. <br>
 ### 2. Design your logger
