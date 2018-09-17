@@ -59,10 +59,14 @@ As you move your hand or an object closer to the sensor the proximity value incr
 The actions assigned to each of the 3 states (clearing, reading, writing) are turning on the built in LED to various brightnesses. The action of turning on the LED has nothing to do with what is going on with the memory, it is just a way 
 to know whats going on, on the board. <br>
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
-
+<br >These functions cannot be called in a loop since we don't want to clear the memory or write to the memory indefinitely in a loop. 
+<br>
 **c. How many byte-sized data samples can you store on the Atmega328?**
-
+There are 1024 bytes of internal memory and 32KB of program memory or 32,000 bytes. 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
+The values coming from the analogread on the arduino is 10 bits ranges from 0 to 1023. 
+We want the data to byte sized. So a byte has 8 bits. So the range of value would be from 0 to 255. We would use the map function. map(analogRead(sensorPin), 0, 1024, 0, 255);
+We would have the same process for the I2C devices. We would figure out the range of values on the I2C devices and map them to the range of a byte which is 0 to 255. 
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
