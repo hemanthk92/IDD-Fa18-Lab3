@@ -32,10 +32,10 @@ We can use the analogread function from pin A0. This will give us voltage values
 We can also use an if statement to map the force resitor values to a color displayed on the LED. This is done in the code example below. <br >
 [code here](/forceresistor_led.ino) <br>
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
-The photocell resistor <br>
+The photocell resistor worked with a 5k resistor while the soft and the flex worked with a 10k resistor. <br>
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**<br>
 The photocell resistor increases in voltage when it has more light and when it is covered up the voltage goes down. 
-The soft cell resistor decreases in voltage the more its bent. 
+The flex resistor decreases in voltage the more its bent. The soft spot resistor changes resistrance when you press down on various parts of the strip. 
 ### 2. Accelerometer
 **a. Include your accelerometer read-out code in your write-up.**
 <br>
@@ -81,4 +81,6 @@ In question 3b we took sensor data and printed it in the serial monitor. I modif
  <br>
 I connected an acclerometer to my neck and counted the # of times I bent my neck. I stored the # of bends and the magnitude of the change in the rotation of neck in the arduino hard drive. </br>
 **a. Record and upload a short demo video of your logger in action.** <br>
+[picturei of setup](/setup.JPG)
 https://youtu.be/wkVpKZ-rhBY
+
