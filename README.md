@@ -82,5 +82,5 @@ I connected an acclerometer to my neck and counted the # of times I bent my neck
 **a. Record and upload a short demo video of your logger in action.** <br>
 [pic here](/setup.JPG) <br>
 https://youtu.be/wkVpKZ-rhBY
-[code here](/neck_node_checker.ino)
+[code here]<br> (/neck_node_checker.ino)
 
