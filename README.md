@@ -34,8 +34,8 @@ We can also use an if statement to map the force resitor values to a color displ
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 The photocell resistor worked with a 5k resistor while the soft and the flex worked with a 10k resistor. <br>
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**<br>
-The photocell resistor increases in voltage when it has more light and when it is covered up the voltage goes down. 
-The flex resistor decreases in voltage the more its bent. The soft spot resistor changes resistrance when you press down on various parts of the strip. 
+The photocell resistor increases in voltage when it has more light and when it is covered up the voltage goes down. Thus the resistance has an inverse relationship with resistance. 
+The flex resistor decreases in voltage the more its bent. The more the flex resistor is bent the more the resistance, thus it has a linear relationship woth resistance. The soft spot resistor changes resistrance when you press down on various parts of the strip. 
 ### 2. Accelerometer
 **a. Include your accelerometer read-out code in your write-up.**
 <br>
