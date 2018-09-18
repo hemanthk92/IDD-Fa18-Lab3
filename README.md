@@ -76,7 +76,7 @@ In question 3b we took sensor data and printed it in the serial monitor. I modif
 ### 2. Design your logger
  
 **a. Insert here a copy of your final state diagram.**
-<br>[link](/State diagram lab 3.pdf) <br>
+<br>[link](/Statediagramlab3.pdf) <br>
 ### 3. Create your data logger!
 I connected an acclerometer to my neck and counted the # of times I bent my neck. I stored the # of bends and the magnitude of the change in the rotation of neck in the arduino hard drive. </br>
 **a. Record and upload a short demo video of your logger in action.** <br>
