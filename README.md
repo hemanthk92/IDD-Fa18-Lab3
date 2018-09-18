@@ -80,5 +80,5 @@ In question 3b we took sensor data and printed it in the serial monitor. I modif
 ### 3. Create your data logger!
  <br>
 I connected an acclerometer to my neck and counted the # of times I bent my neck. I stored the # of bends and the magnitude of the change in the rotation of neck in the arduino hard drive. <br>
-**a. Record and upload a short demo video of your logger in action.** <br>
+**a. Record and upload a short demo video of your logger in action.** 
 https://youtu.be/wkVpKZ-rhBY
