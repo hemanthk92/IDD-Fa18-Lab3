@@ -70,7 +70,7 @@ We would have the same process for the I2C devices. We would figure out the rang
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)** <br>
 You can use the EEPROMPut function that allows you to write any data type or object to memory.
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**<br>
-[code] (/accel_ir_byte.ino) 
+[/accel_ir_byte.ino]
 <br>
 In question 3b we took sensor data and printed it in the serial monitor. I modified that code file to output data that is byte sized using the map function. Since the accleromter data is 16 bits we need to scale it down. <br>
 ### 2. Design your logger
@@ -80,5 +80,5 @@ In question 3b we took sensor data and printed it in the serial monitor. I modif
 ### 3. Create your data logger!
  <br>
 I connected an acclerometer to my neck and counted the # of times I bent my neck. I stored the # of bends and the magnitude of the change in the rotation of neck in the arduino hard drive. <br>
-**a. Record and upload a short demo video of your logger in action.**
-<br>https://youtu.be/wkVpKZ-rhBY
+**a. Record and upload a short demo video of your logger in action.** <br>
+https://youtu.be/wkVpKZ-rhBY
