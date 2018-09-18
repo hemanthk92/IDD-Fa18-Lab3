@@ -61,8 +61,8 @@ to know whats going on, on the board. <br>
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
 <br >These functions cannot be called in a loop since we don't want to clear the memory or write to the memory indefinitely in a loop. 
 <br>
-**c. How many byte-sized data samples can you store on the Atmega328?**
-There are 1024 bytes of internal memory and 32KB of program memory or 32,000 bytes. 
+**c. How many byte-sized data samples can you store on the Atmega328?** <br>
+There are 1024 bytes of internal memory and 32KB of program memory or 32,000 bytes. <br>
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
 The values coming from the analogread on the arduino is 10 bits ranges from 0 to 1023. 
 We want the data to byte sized. So a byte has 8 bits. So the range of value would be from 0 to 255. We would use the map function. map(analogRead(sensorPin), 0, 1024, 0, 255);
