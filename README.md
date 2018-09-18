@@ -78,8 +78,9 @@ In question 3b we took sensor data and printed it in the serial monitor. I modif
 **a. Insert here a copy of your final state diagram.**
 <br>[link](/Statediagramlab3.pdf) <br>
 ### 3. Create your data logger!
-I connected an acclerometer to my neck and counted the # of times I bent my neck. I stored the # of bends and the magnitude of the change in the rotation of neck in the arduino hard drive. </br>
+I connected an acclerometer to my neck and counted the # of times I bent my neck. I stored the # of bends and the magnitude of the change in the rotation of neck in the arduino hard drive. This could be useful for a posture alignment tool! </br>
 **a. Record and upload a short demo video of your logger in action.** <br>
 [pic here](/setup.JPG) <br>
 https://youtu.be/wkVpKZ-rhBY
+[code here](/neck_node_checker.ino)
 
