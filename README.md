@@ -30,8 +30,7 @@ There is a positive correleation between voltage and force applied. As more forc
 We can use the analogread function from pin A0. This will give us voltage values between 0 and 1024. We can then use this number as the brightness parameter in the analogWrite(led, brightness) function. <br>
 [link to the video](https://youtu.be/bNC21NYjnT8) <br>
 We can also use an if statement to map the force resitor values to a color displayed on the LED. This is done in the code example below. <br >
-[code here](/forceresistor_led.ino)
-[link to the code] (/forceresistor_led.ino) <br>
+[code here](/forceresistor_led.ino) <br>
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 The photocell resistor <br>
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**<br>
@@ -41,6 +40,7 @@ The soft cell resistor decreases in voltage the more its bent.
 **a. Include your accelerometer read-out code in your write-up.**
 <br>
 If you are looking at the acclerometer straight on with the labeled pins. Rotating the accelerometer horizontally changes the X position values. Flipping the accelerometer changes the Y values. And moving the acclerometer up and down changes the Z position values. Likewise for increasing the rate of motion causes subsquent changes to the Axes's accleration values. <br>
+[code here](/accle-led.ino)
 [link to code] (/accle-led.ino) <br>
 ### 3. IR Proximity Sensor 
 
