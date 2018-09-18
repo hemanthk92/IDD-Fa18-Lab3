@@ -67,10 +67,8 @@ There are 1024 bytes of internal memory and 32KB of program memory or 32,000 byt
 The values coming from the analogread on the arduino is 10 bits ranges from 0 to 1023. 
 We want the data to byte sized. So a byte has 8 bits. So the range of value would be from 0 to 255. We would use the map function. map(analogRead(sensorPin), 0, 1024, 0, 255);
 We would have the same process for the I2C devices. We would figure out the range of values on the I2C devices and map them to the range of a byte which is 0 to 255. 
-
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)** <br>
 You can use the EEPROMPut function that allows you to write any data type or object to memory.
-
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**<br>
 [code] (/accel_ir_byte.ino) 
 <br>
@@ -83,4 +81,4 @@ In question 3b we took sensor data and printed it in the serial monitor. I modif
  <br>
 I connected an acclerometer to my neck and counted the # of times I bent my neck. I stored the # of bends and the magnitude of the change in the rotation of neck in the arduino hard drive. <br>
 **a. Record and upload a short demo video of your logger in action.**
-<br>[video of logger] (https://youtu.be/wkVpKZ-rhBY)
+<br>[https://youtu.be/wkVpKZ-rhBY]
