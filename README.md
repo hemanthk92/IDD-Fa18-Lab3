@@ -30,7 +30,7 @@ There is a positive correleation between voltage and force applied. As more forc
 We can use the analogread function from pin A0. This will give us voltage values between 0 and 1024. We can then use this number as the brightness parameter in the analogWrite(led, brightness) function. <br>
 [link to the video](https://youtu.be/bNC21NYjnT8) <br>
 We can also use an if statement to map the force resitor values to a color displayed on the LED. This is done in the code example below. <br >
-[code here](/accel_ir_byte.ino)
+[code here](/forceresistor_led.ino)
 [link to the code] (/forceresistor_led.ino) <br>
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 The photocell resistor <br>
